@@ -95,3 +95,39 @@ main {
   margin-right: 0;
   margin-left: 55px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.cards .card {
+    width: 400px;
+    height: 425px;
+    background: #6e78b7;
+    color: white;
+}
+
+.cards .card h3 {
+    background: #e44d26;
+    margin: 0;
+    padding: 25px 0 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards .card .description {
+padding: 35px 40px 0 40px;
+}
+
+.cards .card .btn {
+    width: 200px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    background: #e44d26;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
